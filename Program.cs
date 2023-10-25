@@ -2,11 +2,11 @@
 {
     internal class Program
     {
+        static string[] svenska = new string[10];
+        static string[] latin = new string[10];
+        static int nästa_insättning = 0;
         static void Main(string[] args)
         {
-            string[] svenska = new string[10];
-            string[] latin = new string[10];
-            int nästa_insättning = 0;
             latin[nästa_insättning] = "arbor";
             svenska[nästa_insättning] = "träd";
             nästa_insättning++;
